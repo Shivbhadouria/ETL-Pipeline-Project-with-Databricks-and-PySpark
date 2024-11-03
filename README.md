@@ -2,7 +2,7 @@
 
 This project demonstrates creating efficient and scalable ETL (Extract, Transform, Load) pipelines using Databricks with PySpark, and Apache Spark’s Python API. The pipelines use a factory pattern to accommodate multiple data sources and employ advanced transformation and loading strategies in DataLake and LakeHouse environments. The project also covers frequently asked PySpark interview concepts such as joins, window functions, partitioning, bucketing, and Delta Lake usage.
 
-Table of Contents
+#Table of Contents
 
 Project Overview
 Architecture and Design
@@ -11,11 +11,6 @@ Project Setup
 Data Sources
 ETL Pipeline Stages
 Key Concepts
-Usage and Examples
-Future Enhancements
-License
-Project Overview
-This project showcases a complete ETL pipeline built on Databricks using PySpark, demonstrating core data engineering skills. It transforms data from various sources, such as CSV, Parquet, and Delta tables, performs business logic transformations, and loads data into DataLake and LakeHouse formats.
 
 Architecture and Design
 We have used the Factory Pattern to design a flexible ETL pipeline that can adapt to different data sources and transformations. The factory pattern allows us to define a common reader interface, making it easier to add new sources without modifying the core ETL code.
